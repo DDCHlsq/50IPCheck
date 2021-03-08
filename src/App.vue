@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-navbar type="dark" variant="info">
+      <b-navbar-brand href="/">IP Check</b-navbar-brand>
+    </b-navbar>
     <router-view/>
   </div>
 </template>
