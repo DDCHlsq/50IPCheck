@@ -20,7 +20,7 @@ server {
     server_name example.com;
     location / {
         root /yourpath/dist;
-        index index.html
+        index index.html;
     }
 }
 ```
